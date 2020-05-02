@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1D8F056245DC58C0046F1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F055245DC58C0046F1DB /* AppDelegate.swift */; };
+		A1D8F058245DC58C0046F1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */; };
+		A1D8F05B245DC58C0046F1DB /* Karaktero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */; };
+		A1D8F05D245DC58C0046F1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F05C245DC58C0046F1DB /* ContentView.swift */; };
+		A1D8F05F245DC58F0046F1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F05E245DC58F0046F1DB /* Assets.xcassets */; };
+		A1D8F062245DC58F0046F1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F061245DC58F0046F1DB /* Preview Assets.xcassets */; };
+		A1D8F065245DC58F0046F1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */; };
+		A1D8F070245DC58F0046F1DB /* KarakteroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F06F245DC58F0046F1DB /* KarakteroTests.swift */; };
+		A1D8F07B245DC58F0046F1DB /* KarakteroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F07A245DC58F0046F1DB /* KarakteroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1D8F06C245DC58F0046F1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D8F04A245DC58C0046F1DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D8F051245DC58C0046F1DB;
+			remoteInfo = Karaktero;
+		};
+		A1D8F077245DC58F0046F1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D8F04A245DC58C0046F1DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D8F051245DC58C0046F1DB;
+			remoteInfo = Karaktero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1D8F052245DC58C0046F1DB /* Karaktero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaktero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D8F055245DC58C0046F1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1D8F05A245DC58C0046F1DB /* Karaktero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Karaktero.xcdatamodel; sourceTree = "<group>"; };
+		A1D8F05C245DC58C0046F1DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1D8F05E245DC58F0046F1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1D8F061245DC58F0046F1DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1D8F064245DC58F0046F1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1D8F066245DC58F0046F1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D8F06B245DC58F0046F1DB /* KarakteroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarakteroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D8F06F245DC58F0046F1DB /* KarakteroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarakteroTests.swift; sourceTree = "<group>"; };
+		A1D8F071245DC58F0046F1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D8F076245DC58F0046F1DB /* KarakteroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarakteroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D8F07A245DC58F0046F1DB /* KarakteroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarakteroUITests.swift; sourceTree = "<group>"; };
+		A1D8F07C245DC58F0046F1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1D8F04F245DC58C0046F1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8F068245DC58F0046F1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8F073245DC58F0046F1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1D8F049245DC58C0046F1DB = {
+			isa = PBXGroup;
+			children = (
+				A1D8F054245DC58C0046F1DB /* Karaktero */,
+				A1D8F06E245DC58F0046F1DB /* KarakteroTests */,
+				A1D8F079245DC58F0046F1DB /* KarakteroUITests */,
+				A1D8F053245DC58C0046F1DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1D8F053245DC58C0046F1DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F052245DC58C0046F1DB /* Karaktero.app */,
+				A1D8F06B245DC58F0046F1DB /* KarakteroTests.xctest */,
+				A1D8F076245DC58F0046F1DB /* KarakteroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D8F054245DC58C0046F1DB /* Karaktero */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F055245DC58C0046F1DB /* AppDelegate.swift */,
+				A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */,
+				A1D8F05C245DC58C0046F1DB /* ContentView.swift */,
+				A1D8F05E245DC58F0046F1DB /* Assets.xcassets */,
+				A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */,
+				A1D8F066245DC58F0046F1DB /* Info.plist */,
+				A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */,
+				A1D8F060245DC58F0046F1DB /* Preview Content */,
+			);
+			path = Karaktero;
+			sourceTree = "<group>";
+		};
+		A1D8F060245DC58F0046F1DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F061245DC58F0046F1DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1D8F06E245DC58F0046F1DB /* KarakteroTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F06F245DC58F0046F1DB /* KarakteroTests.swift */,
+				A1D8F071245DC58F0046F1DB /* Info.plist */,
+			);
+			path = KarakteroTests;
+			sourceTree = "<group>";
+		};
+		A1D8F079245DC58F0046F1DB /* KarakteroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F07A245DC58F0046F1DB /* KarakteroUITests.swift */,
+				A1D8F07C245DC58F0046F1DB /* Info.plist */,
+			);
+			path = KarakteroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1D8F051245DC58C0046F1DB /* Karaktero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D8F07F245DC58F0046F1DB /* Build configuration list for PBXNativeTarget "Karaktero" */;
+			buildPhases = (
+				A1D8F04E245DC58C0046F1DB /* Sources */,
+				A1D8F04F245DC58C0046F1DB /* Frameworks */,
+				A1D8F050245DC58C0046F1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karaktero;
+			productName = Karaktero;
+			productReference = A1D8F052245DC58C0046F1DB /* Karaktero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D8F06A245DC58F0046F1DB /* KarakteroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D8F082245DC58F0046F1DB /* Build configuration list for PBXNativeTarget "KarakteroTests" */;
+			buildPhases = (
+				A1D8F067245DC58F0046F1DB /* Sources */,
+				A1D8F068245DC58F0046F1DB /* Frameworks */,
+				A1D8F069245DC58F0046F1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D8F06D245DC58F0046F1DB /* PBXTargetDependency */,
+			);
+			name = KarakteroTests;
+			productName = KarakteroTests;
+			productReference = A1D8F06B245DC58F0046F1DB /* KarakteroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1D8F075245DC58F0046F1DB /* KarakteroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D8F085245DC58F0046F1DB /* Build configuration list for PBXNativeTarget "KarakteroUITests" */;
+			buildPhases = (
+				A1D8F072245DC58F0046F1DB /* Sources */,
+				A1D8F073245DC58F0046F1DB /* Frameworks */,
+				A1D8F074245DC58F0046F1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D8F078245DC58F0046F1DB /* PBXTargetDependency */,
+			);
+			name = KarakteroUITests;
+			productName = KarakteroUITests;
+			productReference = A1D8F076245DC58F0046F1DB /* KarakteroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D8F04A245DC58C0046F1DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Madsen;
+				TargetAttributes = {
+					A1D8F051245DC58C0046F1DB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					A1D8F06A245DC58F0046F1DB = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = A1D8F051245DC58C0046F1DB;
+					};
+					A1D8F075245DC58F0046F1DB = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = A1D8F051245DC58C0046F1DB;
+					};
+				};
+			};
+			buildConfigurationList = A1D8F04D245DC58C0046F1DB /* Build configuration list for PBXProject "Karaktero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1D8F049245DC58C0046F1DB;
+			productRefGroup = A1D8F053245DC58C0046F1DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1D8F051245DC58C0046F1DB /* Karaktero */,
+				A1D8F06A245DC58F0046F1DB /* KarakteroTests */,
+				A1D8F075245DC58F0046F1DB /* KarakteroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1D8F050245DC58C0046F1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D8F065245DC58F0046F1DB /* LaunchScreen.storyboard in Resources */,
+				A1D8F062245DC58F0046F1DB /* Preview Assets.xcassets in Resources */,
+				A1D8F05F245DC58F0046F1DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8F069245DC58F0046F1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8F074245DC58F0046F1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D8F04E245DC58C0046F1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D8F05B245DC58C0046F1DB /* Karaktero.xcdatamodeld in Sources */,
+				A1D8F056245DC58C0046F1DB /* AppDelegate.swift in Sources */,
+				A1D8F05D245DC58C0046F1DB /* ContentView.swift in Sources */,
+				A1D8F058245DC58C0046F1DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8F067245DC58F0046F1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D8F070245DC58F0046F1DB /* KarakteroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8F072245DC58F0046F1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D8F07B245DC58F0046F1DB /* KarakteroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D8F06D245DC58F0046F1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D8F051245DC58C0046F1DB /* Karaktero */;
+			targetProxy = A1D8F06C245DC58F0046F1DB /* PBXContainerItemProxy */;
+		};
+		A1D8F078245DC58F0046F1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D8F051245DC58C0046F1DB /* Karaktero */;
+			targetProxy = A1D8F077245DC58F0046F1DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D8F064245DC58F0046F1DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1D8F07D245DC58F0046F1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1D8F07E245DC58F0046F1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1D8F080245DC58F0046F1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Karaktero/Preview Content\"";
+				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Karaktero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madsen.Karaktero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1D8F081245DC58F0046F1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Karaktero/Preview Content\"";
+				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Karaktero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madsen.Karaktero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1D8F083245DC58F0046F1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				INFOPLIST_FILE = KarakteroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madsen.KarakteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaktero.app/Karaktero";
+			};
+			name = Debug;
+		};
+		A1D8F084245DC58F0046F1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				INFOPLIST_FILE = KarakteroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madsen.KarakteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaktero.app/Karaktero";
+			};
+			name = Release;
+		};
+		A1D8F086245DC58F0046F1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				INFOPLIST_FILE = KarakteroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madsen.KarakteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karaktero;
+			};
+			name = Debug;
+		};
+		A1D8F087245DC58F0046F1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				INFOPLIST_FILE = KarakteroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = madsen.KarakteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karaktero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1D8F04D245DC58C0046F1DB /* Build configuration list for PBXProject "Karaktero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D8F07D245DC58F0046F1DB /* Debug */,
+				A1D8F07E245DC58F0046F1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D8F07F245DC58F0046F1DB /* Build configuration list for PBXNativeTarget "Karaktero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D8F080245DC58F0046F1DB /* Debug */,
+				A1D8F081245DC58F0046F1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D8F082245DC58F0046F1DB /* Build configuration list for PBXNativeTarget "KarakteroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D8F083245DC58F0046F1DB /* Debug */,
+				A1D8F084245DC58F0046F1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D8F085245DC58F0046F1DB /* Build configuration list for PBXNativeTarget "KarakteroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D8F086245DC58F0046F1DB /* Debug */,
+				A1D8F087245DC58F0046F1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1D8F05A245DC58C0046F1DB /* Karaktero.xcdatamodel */,
+			);
+			currentVersion = A1D8F05A245DC58C0046F1DB /* Karaktero.xcdatamodel */;
+			path = Karaktero.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1D8F04A245DC58C0046F1DB /* Project object */;
+}
