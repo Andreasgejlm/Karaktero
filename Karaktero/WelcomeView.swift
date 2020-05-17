@@ -8,14 +8,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+struct WelcomeView: View {
     var body: some View {
-        Text("Hello, World!")
+        GradeListView().environmentObject(AnyViewModel(GradeListViewModel(cdmanager: CoreDataManager())))
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WelcomeView()
     }
 }

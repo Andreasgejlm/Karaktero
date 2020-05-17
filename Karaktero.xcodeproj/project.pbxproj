@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A16DE5AA246F2C3F00E346DB /* GradeListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */; };
+		A171CFB424613FD7000BE676 /* AddGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171CFB324613FD7000BE676 /* AddGradeViewModel.swift */; };
+		A1B88DE9246C84DF0058667C /* GradeAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B88DE8246C84DF0058667C /* GradeAverageView.swift */; };
+		A1C12ABA246DD8A5001777A0 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C12AB9246DD8A5001777A0 /* TrackableScrollView.swift */; };
+		A1C5B17B2471634400C00F27 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = A1C5B17A2471634400C00F27 /* Introspect */; };
+		A1C5B17D2471B19100C00F27 /* EditGradeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */; };
+		A1C7653224602BCB00715898 /* AddGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7653124602BCB00715898 /* AddGradeView.swift */; };
 		A1D8F056245DC58C0046F1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F055245DC58C0046F1DB /* AppDelegate.swift */; };
 		A1D8F058245DC58C0046F1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */; };
 		A1D8F05B245DC58C0046F1DB /* Karaktero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */; };
-		A1D8F05D245DC58C0046F1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F05C245DC58C0046F1DB /* ContentView.swift */; };
+		A1D8F05D245DC58C0046F1DB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F05C245DC58C0046F1DB /* WelcomeView.swift */; };
 		A1D8F05F245DC58F0046F1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F05E245DC58F0046F1DB /* Assets.xcassets */; };
 		A1D8F062245DC58F0046F1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F061245DC58F0046F1DB /* Preview Assets.xcassets */; };
 		A1D8F065245DC58F0046F1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */; };
 		A1D8F070245DC58F0046F1DB /* KarakteroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F06F245DC58F0046F1DB /* KarakteroTests.swift */; };
 		A1D8F07B245DC58F0046F1DB /* KarakteroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F07A245DC58F0046F1DB /* KarakteroUITests.swift */; };
+		A1D8F08B245DC5C60046F1DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F089245DC5C60046F1DB /* Localizable.strings */; };
+		A1D8F093245DC6890046F1DB /* GradeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F092245DC6890046F1DB /* GradeListView.swift */; };
+		A1D8F096245DC6C50046F1DB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F095245DC6C50046F1DB /* ViewModel.swift */; };
+		A1D8F098245DC7110046F1DB /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F097245DC7110046F1DB /* GradeListViewModel.swift */; };
+		A1D8F09B245DC7AD0046F1DB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F09A245DC7AD0046F1DB /* CoreDataManager.swift */; };
+		A1FA2CD9246EA61F0000090E /* ScrollOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA2CD8246EA61F0000090E /* ScrollOffsetPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListItem.swift; sourceTree = "<group>"; };
+		A171CFB324613FD7000BE676 /* AddGradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGradeViewModel.swift; sourceTree = "<group>"; };
+		A1B88DE8246C84DF0058667C /* GradeAverageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeAverageView.swift; sourceTree = "<group>"; };
+		A1C12AB9246DD8A5001777A0 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGradeModal.swift; sourceTree = "<group>"; };
+		A1C7653124602BCB00715898 /* AddGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGradeView.swift; sourceTree = "<group>"; };
 		A1D8F052245DC58C0046F1DB /* Karaktero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaktero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D8F055245DC58C0046F1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A1D8F05A245DC58C0046F1DB /* Karaktero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Karaktero.xcdatamodel; sourceTree = "<group>"; };
-		A1D8F05C245DC58C0046F1DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1D8F05C245DC58C0046F1DB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A1D8F05E245DC58F0046F1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D8F061245DC58F0046F1DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1D8F064245DC58F0046F1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,14 @@
 		A1D8F076245DC58F0046F1DB /* KarakteroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarakteroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D8F07A245DC58F0046F1DB /* KarakteroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarakteroUITests.swift; sourceTree = "<group>"; };
 		A1D8F07C245DC58F0046F1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D8F088245DC5B60046F1DB /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A1D8F08A245DC5C60046F1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1D8F08C245DC5D70046F1DB /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1D8F092245DC6890046F1DB /* GradeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListView.swift; sourceTree = "<group>"; };
+		A1D8F095245DC6C50046F1DB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A1D8F097245DC7110046F1DB /* GradeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListViewModel.swift; sourceTree = "<group>"; };
+		A1D8F09A245DC7AD0046F1DB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A1FA2CD8246EA61F0000090E /* ScrollOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C5B17B2471634400C00F27 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +129,20 @@
 		A1D8F054245DC58C0046F1DB /* Karaktero */ = {
 			isa = PBXGroup;
 			children = (
+				A1D8F099245DC7A40046F1DB /* Core Data */,
+				A1D8F094245DC6BC0046F1DB /* MVVM */,
+				A1D8F08F245DC61E0046F1DB /* ViewModels */,
+				A1D8F08E245DC6180046F1DB /* Models */,
+				A1D8F08D245DC6140046F1DB /* Views */,
 				A1D8F055245DC58C0046F1DB /* AppDelegate.swift */,
 				A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */,
-				A1D8F05C245DC58C0046F1DB /* ContentView.swift */,
+				A1D8F05C245DC58C0046F1DB /* WelcomeView.swift */,
 				A1D8F05E245DC58F0046F1DB /* Assets.xcassets */,
 				A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */,
 				A1D8F066245DC58F0046F1DB /* Info.plist */,
 				A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */,
 				A1D8F060245DC58F0046F1DB /* Preview Content */,
+				A1D8F089245DC5C60046F1DB /* Localizable.strings */,
 			);
 			path = Karaktero;
 			sourceTree = "<group>";
@@ -139,6 +173,52 @@
 			path = KarakteroUITests;
 			sourceTree = "<group>";
 		};
+		A1D8F08D245DC6140046F1DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F092245DC6890046F1DB /* GradeListView.swift */,
+				A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */,
+				A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */,
+				A1C12AB9246DD8A5001777A0 /* TrackableScrollView.swift */,
+				A1C7653124602BCB00715898 /* AddGradeView.swift */,
+				A1B88DE8246C84DF0058667C /* GradeAverageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1D8F08E245DC6180046F1DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA2CD8246EA61F0000090E /* ScrollOffsetPreferenceKey.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1D8F08F245DC61E0046F1DB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F097245DC7110046F1DB /* GradeListViewModel.swift */,
+				A171CFB324613FD7000BE676 /* AddGradeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1D8F094245DC6BC0046F1DB /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F095245DC6C50046F1DB /* ViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		A1D8F099245DC7A40046F1DB /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8F09A245DC7AD0046F1DB /* CoreDataManager.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +235,9 @@
 			dependencies = (
 			);
 			name = Karaktero;
+			packageProductDependencies = (
+				A1C5B17A2471634400C00F27 /* Introspect */,
+			);
 			productName = Karaktero;
 			productReference = A1D8F052245DC58C0046F1DB /* Karaktero.app */;
 			productType = "com.apple.product-type.application";
@@ -225,8 +308,12 @@
 			knownRegions = (
 				en,
 				Base,
+				da,
 			);
 			mainGroup = A1D8F049245DC58C0046F1DB;
+			packageReferences = (
+				A1C5B1792471634400C00F27 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = A1D8F053245DC58C0046F1DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -244,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D8F065245DC58F0046F1DB /* LaunchScreen.storyboard in Resources */,
+				A1D8F08B245DC5C60046F1DB /* Localizable.strings in Resources */,
 				A1D8F062245DC58F0046F1DB /* Preview Assets.xcassets in Resources */,
 				A1D8F05F245DC58F0046F1DB /* Assets.xcassets in Resources */,
 			);
@@ -270,10 +358,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C7653224602BCB00715898 /* AddGradeView.swift in Sources */,
 				A1D8F05B245DC58C0046F1DB /* Karaktero.xcdatamodeld in Sources */,
 				A1D8F056245DC58C0046F1DB /* AppDelegate.swift in Sources */,
-				A1D8F05D245DC58C0046F1DB /* ContentView.swift in Sources */,
+				A1D8F093245DC6890046F1DB /* GradeListView.swift in Sources */,
+				A1D8F05D245DC58C0046F1DB /* WelcomeView.swift in Sources */,
+				A1B88DE9246C84DF0058667C /* GradeAverageView.swift in Sources */,
 				A1D8F058245DC58C0046F1DB /* SceneDelegate.swift in Sources */,
+				A1D8F09B245DC7AD0046F1DB /* CoreDataManager.swift in Sources */,
+				A1C12ABA246DD8A5001777A0 /* TrackableScrollView.swift in Sources */,
+				A1FA2CD9246EA61F0000090E /* ScrollOffsetPreferenceKey.swift in Sources */,
+				A1C5B17D2471B19100C00F27 /* EditGradeModal.swift in Sources */,
+				A1D8F098245DC7110046F1DB /* GradeListViewModel.swift in Sources */,
+				A1D8F096245DC6C50046F1DB /* ViewModel.swift in Sources */,
+				A16DE5AA246F2C3F00E346DB /* GradeListItem.swift in Sources */,
+				A171CFB424613FD7000BE676 /* AddGradeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +412,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				A1D8F064245DC58F0046F1DB /* Base */,
+				A1D8F088245DC5B60046F1DB /* da */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1D8F089245DC5C60046F1DB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D8F08A245DC5C60046F1DB /* Base */,
+				A1D8F08C245DC5D70046F1DB /* da */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -324,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -384,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -437,7 +548,7 @@
 		A1D8F080245DC58F0046F1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Karaktero/Preview Content\"";
 				DEVELOPMENT_TEAM = 656T6LJBRQ;
@@ -450,14 +561,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = madsen.Karaktero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A1D8F081245DC58F0046F1DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Karaktero/Preview Content\"";
 				DEVELOPMENT_TEAM = 656T6LJBRQ;
@@ -470,7 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = madsen.Karaktero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -598,6 +709,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1C5B1792471634400C00F27 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timbersoftware/SwiftUI-Introspect.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1C5B17A2471634400C00F27 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1C5B1792471634400C00F27 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */ = {

@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Karaktero
+
+  Created by Andreas Madsen on 02/05/2020.
+  Copyright © 2020 Madsen. All rights reserved.
+*/
+
+
+"weighted-average" = "Weighted average";
+"summary" = "Grade overview";
+"course-title" = "Course title";
+"ects" = "ECTS";
+"grade" = "Grade";
+"add-new-grade" = "Add new grade";
+"input-course-title" = "Course title";
+"input-ects-points" = "ECTS points";
+"select-grade" = "Select grade";
+"delete" = "Delete";
+"confirm" = "Confirm";
+"add" = "Add";
+"delete-grade" = "Delete grade";
+"sure-delete" = "Are you sure you want to delete this grade?";
+"edit-grade" = "Edit grade";
+"edit" = "Edit";

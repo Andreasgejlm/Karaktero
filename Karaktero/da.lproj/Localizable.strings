@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Karaktero
+
+  Created by Andreas Madsen on 02/05/2020.
+  Copyright © 2020 Madsen. All rights reserved.
+*/
+
+
+"weighted-average" = "Vægtet gennemsnit";
+"summary" = "Karakteroverblik";
+"course-title" = "Kursusnavn";
+"ects" = "ECTS";
+"grade" = "Karakter";
+"add-new-grade" = "Tilføj ny karakter";
+"input-course-title" = "Kursusnavn";
+"input-ects-points" = "ECTS point";
+"select-grade" = "Vælg karakter";
+"delete" = "Slet";
+"add" = "Tilføj";
+"delete-grade" = "Slet karakter";
+"sure-delete" = "Er du sikker på, at du vil slette karakteren?";
+"edit-grade" = "Redigér karakter";
+"edit" = "Redigér";
+"confirm" = "Bekræft";
