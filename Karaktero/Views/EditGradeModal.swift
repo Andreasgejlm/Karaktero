@@ -11,7 +11,7 @@ import Introspect
 
 struct EditGradeModal: View {
     @Binding var show: Bool
-    @Binding var grade: GradeModel
+    @Binding var grade: Grade
     @State var title: String = " "
     @State var ectsString: String = " "
     @State var gradeString: String = "4"
@@ -27,7 +27,7 @@ struct EditGradeModal: View {
         }
     }
     
-    init(show: Binding<Bool>, grade: Binding<GradeModel>) {
+    init(show: Binding<Bool>, grade: Binding<Grade>) {
         self._show = show
         self._grade = grade
     }

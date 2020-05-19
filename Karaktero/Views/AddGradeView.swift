@@ -10,18 +10,9 @@ import SwiftUI
 import CoreData
 import Introspect
 
-struct AddGradeViewState {
-//    var newGrade: Grade
-}
-
-enum AddGradeViewInput {
-//    case setNewGrade(Grade)
-//    case assignContext(NSManagedObjectContext)
-}
 
 struct AddGradeView: View {
-    @EnvironmentObject var viewModel: AnyViewModel<AddGradeViewState, AddGradeViewInput>
-    @Environment(\.managedObjectContext) var managedObjectContext
+    @EnvironmentObject var vm: AnyViewModel<AddGradeViewState, AddGradeViewInput>
     @Binding var show: Bool
     @State var title: String = " "
     @State var ectsString: String = " "
@@ -144,12 +135,9 @@ struct AddGradeView: View {
     }
     
     func addGrade() {
-        let newGrade = GradeModel(context: self.managedObjectContext)
-        newGrade.courseTitle = title
-        newGrade.ects = Int16(ectsString) ?? 0
-        newGrade.grade = Int16(gradeString) ?? 0
-        newGrade.timestamp = Date().timeIntervalSince1970
-        try? managedObjectContext.save()
+        let ects = Int16(ectsString) ?? 0
+        let grade = Int16(gradeString) ?? 0
+        vm.trigger(.addGrade(title: title, ects: ects, grade: grade))
         UIApplication.shared.endEditing()
         self.show.toggle()
     }

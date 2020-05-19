@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct GradeListItem: View {
-    @State var grade: GradeModel
+    @State var grade: Grade
     @Environment(\.managedObjectContext) var managedObjectContext
     @State var offsetPosition: CGFloat = 0.0
     @State var currentPosition: CGFloat = .zero
@@ -17,9 +17,7 @@ struct GradeListItem: View {
     @State var showEditGrade: Bool = false
     @State var itemOpacity: Double = 1
     let height: CGFloat = 60.0
-    var offsetWidth: CGFloat {
-        2 * height + 15
-    }
+    var offsetWidth: CGFloat { 2 * height + 15 }
     var gradeString: String {
         switch grade.grade {
             case 2: return "02"
@@ -135,12 +133,11 @@ struct GradeListItem: View {
     }
     
     func editGrade() {
-        let temp2 = GradeModel(context: managedObjectContext)
+        let temp2 = Grade(context: managedObjectContext)
         temp2.timestamp = grade.timestamp
         temp2.courseTitle = grade.courseTitle
         temp2.ects = grade.ects
         temp2.grade = grade.grade
-        temp2.id = grade.id
         managedObjectContext.delete(grade)
         do {
             try managedObjectContext.save()

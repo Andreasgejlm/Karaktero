@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Karaktero
+//  Karaktero-Ipad
 //
-//  Created by Andreas Madsen on 02/05/2020.
+//  Created by Andreas Madsen on 18/05/2020.
 //  Copyright © 2020 Madsen. All rights reserved.
 //
 
@@ -24,13 +24,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-        let welcomeView = MainListView().environment(\.managedObjectContext, context)
-            .environmentObject(AnyViewModel(MainListViewModel()))
+        let contentView = ContentView().environment(\.managedObjectContext, context)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: welcomeView)
+            window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
         }
