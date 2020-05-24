@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Karaktero
+//  Karaktero-Ipad
 //
-//  Created by Andreas Madsen on 02/05/2020.
+//  Created by Andreas Madsen on 18/05/2020.
 //  Copyright © 2020 Madsen. All rights reserved.
 //
 
@@ -77,5 +77,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+
 }
 

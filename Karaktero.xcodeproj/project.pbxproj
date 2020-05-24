@@ -7,31 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A16DE5AA246F2C3F00E346DB /* GradeListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */; };
-		A171CFB424613FD7000BE676 /* AddGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171CFB324613FD7000BE676 /* AddGradeViewModel.swift */; };
+		A10D2675247565E50089BC59 /* EditGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D2674247565E50089BC59 /* EditGradeViewModel.swift */; };
+		A10E1C1D247AA7A1005903A8 /* AddGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D66F2474185B00264F87 /* AddGradeViewModel.swift */; };
+		A10E1C1E247AA7A1005903A8 /* EditGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D2674247565E50089BC59 /* EditGradeViewModel.swift */; };
+		A10E1C22247AA7C3005903A8 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E1C21247AA7C3005903A8 /* MainListView.swift */; };
+		A10E1C23247AA8B7005903A8 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A10E1C24247AA8B8005903A8 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A10E1C25247AA8B8005903A8 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A10E1C28247AA8EC005903A8 /* GradeItemfew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E1C27247AA8EC005903A8 /* GradeItemfew.swift */; };
+		A10E1C29247AA92E005903A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F05E245DC58F0046F1DB /* Assets.xcassets */; };
+		A10E1C2A247AAA3D005903A8 /* GradeAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B88DE8246C84DF0058667C /* GradeAverageView.swift */; };
+		A10E1C2B247AAA53005903A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F089245DC5C60046F1DB /* Localizable.strings */; };
+		A10E1C2C247AC6F6005903A8 /* AddGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7653124602BCB00715898 /* AddGradeView.swift */; };
+		A10E1C2F247AC74E005903A8 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = A10E1C2E247AC74E005903A8 /* Introspect */; };
+		A10E1C30247ACD8E005903A8 /* EditGradeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */; };
+		A10E1C31247ACD97005903A8 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
+		A10E1C32247ACDA9005903A8 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
+		A130D6702474185B00264F87 /* AddGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D66F2474185B00264F87 /* AddGradeViewModel.swift */; };
+		A1B64AAB24731CDE00F60A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64AAA24731CDE00F60A28 /* AppDelegate.swift */; };
+		A1B64AAD24731CDE00F60A28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64AAC24731CDE00F60A28 /* SceneDelegate.swift */; };
+		A1B64AB724731CE200F60A28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B64AB624731CE200F60A28 /* Preview Assets.xcassets */; };
+		A1B64ABA24731CE200F60A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B64AB824731CE200F60A28 /* LaunchScreen.storyboard */; };
+		A1B64AC524731CE200F60A28 /* Karaktero_IpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64AC424731CE200F60A28 /* Karaktero_IpadTests.swift */; };
+		A1B64AD024731CE200F60A28 /* Karaktero_IpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64ACF24731CE200F60A28 /* Karaktero_IpadUITests.swift */; };
+		A1B64B3C2473202C00F60A28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */; };
+		A1B64B3D2473202C00F60A28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */; };
+		A1B64B3E2473202C00F60A28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */; };
+		A1B64B3F2473202C00F60A28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */; };
+		A1B64B402473202C00F60A28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */; };
+		A1B64B412473202C00F60A28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */; };
+		A1B64B462473205500F60A28 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */; };
+		A1B64B472473205500F60A28 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */; };
+		A1B64B482473205500F60A28 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */; };
+		A1B64B492473205500F60A28 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */; };
+		A1B64B4A2473205500F60A28 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */; };
+		A1B64B4B2473205500F60A28 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */; };
+		A1B64B4E247320F500F60A28 /* Grades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */; };
+		A1B64B4F247320F500F60A28 /* Grades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */; };
+		A1B64B50247320F500F60A28 /* Grades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */; };
+		A1B64B51247320F500F60A28 /* Grades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */; };
+		A1B64B52247320F500F60A28 /* Grades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */; };
+		A1B64B53247320F500F60A28 /* Grades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */; };
+		A1B64B562473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
+		A1B64B572473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
+		A1B64B582473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
+		A1B64B592473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
+		A1B64B5A2473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
+		A1B64B5B2473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
+		A1B64B8A247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A1B64B8B247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A1B64B8C247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A1B64B99247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
+		A1B64B9A247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
+		A1B64B9B247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
+		A1B64BA02473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
+		A1B64BA12473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
+		A1B64BA22473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
+		A1B64BA72473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
+		A1B64BA82473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
+		A1B64BA92473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
+		A1B64BAA2473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
+		A1B64BAB2473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
+		A1B64BAC2473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
 		A1B88DE9246C84DF0058667C /* GradeAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B88DE8246C84DF0058667C /* GradeAverageView.swift */; };
-		A1C12ABA246DD8A5001777A0 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C12AB9246DD8A5001777A0 /* TrackableScrollView.swift */; };
 		A1C5B17B2471634400C00F27 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = A1C5B17A2471634400C00F27 /* Introspect */; };
 		A1C5B17D2471B19100C00F27 /* EditGradeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */; };
 		A1C7653224602BCB00715898 /* AddGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7653124602BCB00715898 /* AddGradeView.swift */; };
 		A1D8F056245DC58C0046F1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F055245DC58C0046F1DB /* AppDelegate.swift */; };
 		A1D8F058245DC58C0046F1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */; };
-		A1D8F05B245DC58C0046F1DB /* Karaktero.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */; };
-		A1D8F05D245DC58C0046F1DB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F05C245DC58C0046F1DB /* WelcomeView.swift */; };
 		A1D8F05F245DC58F0046F1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F05E245DC58F0046F1DB /* Assets.xcassets */; };
 		A1D8F062245DC58F0046F1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F061245DC58F0046F1DB /* Preview Assets.xcassets */; };
 		A1D8F065245DC58F0046F1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */; };
 		A1D8F070245DC58F0046F1DB /* KarakteroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F06F245DC58F0046F1DB /* KarakteroTests.swift */; };
 		A1D8F07B245DC58F0046F1DB /* KarakteroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F07A245DC58F0046F1DB /* KarakteroUITests.swift */; };
 		A1D8F08B245DC5C60046F1DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F089245DC5C60046F1DB /* Localizable.strings */; };
-		A1D8F093245DC6890046F1DB /* GradeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F092245DC6890046F1DB /* GradeListView.swift */; };
-		A1D8F096245DC6C50046F1DB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F095245DC6C50046F1DB /* ViewModel.swift */; };
-		A1D8F098245DC7110046F1DB /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F097245DC7110046F1DB /* GradeListViewModel.swift */; };
-		A1D8F09B245DC7AD0046F1DB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F09A245DC7AD0046F1DB /* CoreDataManager.swift */; };
-		A1FA2CD9246EA61F0000090E /* ScrollOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FA2CD8246EA61F0000090E /* ScrollOffsetPreferenceKey.swift */; };
+		A1D8F093245DC6890046F1DB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8F092245DC6890046F1DB /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A1B64AC124731CE200F60A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D8F04A245DC58C0046F1DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B64AA724731CDE00F60A28;
+			remoteInfo = "Karaktero-Ipad";
+		};
+		A1B64ACC24731CE200F60A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D8F04A245DC58C0046F1DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B64AA724731CDE00F60A28;
+			remoteInfo = "Karaktero-Ipad";
+		};
 		A1D8F06C245DC58F0046F1DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1D8F04A245DC58C0046F1DB /* Project object */;
@@ -48,18 +115,50 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B64AFA24731D0B00F60A28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListItem.swift; sourceTree = "<group>"; };
-		A171CFB324613FD7000BE676 /* AddGradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGradeViewModel.swift; sourceTree = "<group>"; };
+		A10D2674247565E50089BC59 /* EditGradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGradeViewModel.swift; sourceTree = "<group>"; };
+		A10E1C21247AA7C3005903A8 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		A10E1C27247AA8EC005903A8 /* GradeItemfew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItemfew.swift; sourceTree = "<group>"; };
+		A130D66F2474185B00264F87 /* AddGradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGradeViewModel.swift; sourceTree = "<group>"; };
+		A1B64AA824731CDE00F60A28 /* Karaktero-Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karaktero-Ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B64AAA24731CDE00F60A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B64AAC24731CDE00F60A28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1B64AB624731CE200F60A28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B64AB924731CE200F60A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B64ABB24731CE200F60A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B64AC024731CE200F60A28 /* Karaktero-IpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karaktero-IpadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B64AC424731CE200F60A28 /* Karaktero_IpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karaktero_IpadTests.swift; sourceTree = "<group>"; };
+		A1B64AC624731CE200F60A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B64ACB24731CE200F60A28 /* Karaktero-IpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karaktero-IpadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B64ACF24731CE200F60A28 /* Karaktero_IpadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karaktero_IpadUITests.swift; sourceTree = "<group>"; };
+		A1B64AD124731CE200F60A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
+		A1B64B4D247320F500F60A28 /* Grades.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grades.xcdatamodel; sourceTree = "<group>"; };
+		A1B64B552473222200F60A28 /* MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM.swift; sourceTree = "<group>"; };
+		A1B64B89247325B500F60A28 /* GradeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeList.swift; sourceTree = "<group>"; };
+		A1B64B98247326BF00F60A28 /* GradeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItem.swift; sourceTree = "<group>"; };
+		A1B64B9F2473280400F60A28 /* ButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRow.swift; sourceTree = "<group>"; };
+		A1B64BA62473291200F60A28 /* GradeItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItemRow.swift; sourceTree = "<group>"; };
 		A1B88DE8246C84DF0058667C /* GradeAverageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeAverageView.swift; sourceTree = "<group>"; };
-		A1C12AB9246DD8A5001777A0 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGradeModal.swift; sourceTree = "<group>"; };
 		A1C7653124602BCB00715898 /* AddGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGradeView.swift; sourceTree = "<group>"; };
 		A1D8F052245DC58C0046F1DB /* Karaktero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaktero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D8F055245DC58C0046F1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1D8F05A245DC58C0046F1DB /* Karaktero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Karaktero.xcdatamodel; sourceTree = "<group>"; };
-		A1D8F05C245DC58C0046F1DB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A1D8F05E245DC58F0046F1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D8F061245DC58F0046F1DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1D8F064245DC58F0046F1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,14 +172,32 @@
 		A1D8F088245DC5B60046F1DB /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A1D8F08A245DC5C60046F1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A1D8F08C245DC5D70046F1DB /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A1D8F092245DC6890046F1DB /* GradeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListView.swift; sourceTree = "<group>"; };
-		A1D8F095245DC6C50046F1DB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		A1D8F097245DC7110046F1DB /* GradeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListViewModel.swift; sourceTree = "<group>"; };
-		A1D8F09A245DC7AD0046F1DB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		A1FA2CD8246EA61F0000090E /* ScrollOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetPreferenceKey.swift; sourceTree = "<group>"; };
+		A1D8F092245DC6890046F1DB /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A1B64AA524731CDE00F60A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10E1C2F247AC74E005903A8 /* Introspect in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B64ABD24731CE200F60A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B64AC824731CE200F60A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1D8F04F245DC58C0046F1DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,13 +223,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10E1C1C247AA762005903A8 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7653124602BCB00715898 /* AddGradeView.swift */,
+				A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		A10E1C20247AA7B7005903A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10E1C21247AA7C3005903A8 /* MainListView.swift */,
+				A10E1C26247AA8E3005903A8 /* Subviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10E1C26247AA8E3005903A8 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				A10E1C27247AA8EC005903A8 /* GradeItemfew.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		A10E1C2D247AC74E005903A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1B64AA924731CDE00F60A28 /* Karaktero-Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				A10E1C20247AA7B7005903A8 /* Views */,
+				A1B64AAA24731CDE00F60A28 /* AppDelegate.swift */,
+				A1B64AAC24731CDE00F60A28 /* SceneDelegate.swift */,
+				A1B64AB824731CE200F60A28 /* LaunchScreen.storyboard */,
+				A1B64ABB24731CE200F60A28 /* Info.plist */,
+				A1B64AB524731CE200F60A28 /* Preview Content */,
+			);
+			path = "Karaktero-Ipad";
+			sourceTree = "<group>";
+		};
+		A1B64AB524731CE200F60A28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1B64AB624731CE200F60A28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1B64AC324731CE200F60A28 /* Karaktero-IpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B64AC424731CE200F60A28 /* Karaktero_IpadTests.swift */,
+				A1B64AC624731CE200F60A28 /* Info.plist */,
+			);
+			path = "Karaktero-IpadTests";
+			sourceTree = "<group>";
+		};
+		A1B64ACE24731CE200F60A28 /* Karaktero-IpadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B64ACF24731CE200F60A28 /* Karaktero_IpadUITests.swift */,
+				A1B64AD124731CE200F60A28 /* Info.plist */,
+			);
+			path = "Karaktero-IpadUITests";
+			sourceTree = "<group>";
+		};
+		A1B64B422473203F00F60A28 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A1B64B3B2473202C00F60A28 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A1B64B442473204A00F60A28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1B64B542473220A00F60A28 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A1B64B552473222200F60A28 /* MVVM.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		A1B64B5C2473223300F60A28 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A130D66F2474185B00264F87 /* AddGradeViewModel.swift */,
+				A10D2674247565E50089BC59 /* EditGradeViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		A1B64B97247326B600F60A28 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				A1B88DE8246C84DF0058667C /* GradeAverageView.swift */,
+				A1B64B89247325B500F60A28 /* GradeList.swift */,
+				A1B64B98247326BF00F60A28 /* GradeItem.swift */,
+				A1B64B9F2473280400F60A28 /* ButtonRow.swift */,
+				A1B64BA62473291200F60A28 /* GradeItemRow.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 		A1D8F049245DC58C0046F1DB = {
 			isa = PBXGroup;
 			children = (
 				A1D8F054245DC58C0046F1DB /* Karaktero */,
 				A1D8F06E245DC58F0046F1DB /* KarakteroTests */,
 				A1D8F079245DC58F0046F1DB /* KarakteroUITests */,
+				A1B64AA924731CDE00F60A28 /* Karaktero-Ipad */,
+				A1B64AC324731CE200F60A28 /* Karaktero-IpadTests */,
+				A1B64ACE24731CE200F60A28 /* Karaktero-IpadUITests */,
 				A1D8F053245DC58C0046F1DB /* Products */,
+				A10E1C2D247AC74E005903A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +360,9 @@
 				A1D8F052245DC58C0046F1DB /* Karaktero.app */,
 				A1D8F06B245DC58F0046F1DB /* KarakteroTests.xctest */,
 				A1D8F076245DC58F0046F1DB /* KarakteroUITests.xctest */,
+				A1B64AA824731CDE00F60A28 /* Karaktero-Ipad.app */,
+				A1B64AC024731CE200F60A28 /* Karaktero-IpadTests.xctest */,
+				A1B64ACB24731CE200F60A28 /* Karaktero-IpadUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,18 +370,17 @@
 		A1D8F054245DC58C0046F1DB /* Karaktero */ = {
 			isa = PBXGroup;
 			children = (
-				A1D8F099245DC7A40046F1DB /* Core Data */,
-				A1D8F094245DC6BC0046F1DB /* MVVM */,
-				A1D8F08F245DC61E0046F1DB /* ViewModels */,
-				A1D8F08E245DC6180046F1DB /* Models */,
+				A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */,
+				A1B64B5C2473223300F60A28 /* View Models */,
+				A1B64B542473220A00F60A28 /* MVVM */,
+				A1B64B442473204A00F60A28 /* Extensions */,
+				A1B64B422473203F00F60A28 /* Managers */,
 				A1D8F08D245DC6140046F1DB /* Views */,
 				A1D8F055245DC58C0046F1DB /* AppDelegate.swift */,
 				A1D8F057245DC58C0046F1DB /* SceneDelegate.swift */,
-				A1D8F05C245DC58C0046F1DB /* WelcomeView.swift */,
 				A1D8F05E245DC58F0046F1DB /* Assets.xcassets */,
 				A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */,
 				A1D8F066245DC58F0046F1DB /* Info.plist */,
-				A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */,
 				A1D8F060245DC58F0046F1DB /* Preview Content */,
 				A1D8F089245DC5C60046F1DB /* Localizable.strings */,
 			);
@@ -176,52 +416,72 @@
 		A1D8F08D245DC6140046F1DB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A1D8F092245DC6890046F1DB /* GradeListView.swift */,
-				A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */,
-				A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */,
-				A1C12AB9246DD8A5001777A0 /* TrackableScrollView.swift */,
-				A1C7653124602BCB00715898 /* AddGradeView.swift */,
-				A1B88DE8246C84DF0058667C /* GradeAverageView.swift */,
+				A10E1C1C247AA762005903A8 /* Modals */,
+				A1B64B97247326B600F60A28 /* Subviews */,
+				A1D8F092245DC6890046F1DB /* MainListView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		A1D8F08E245DC6180046F1DB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A1FA2CD8246EA61F0000090E /* ScrollOffsetPreferenceKey.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		A1D8F08F245DC61E0046F1DB /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				A1D8F097245DC7110046F1DB /* GradeListViewModel.swift */,
-				A171CFB324613FD7000BE676 /* AddGradeViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		A1D8F094245DC6BC0046F1DB /* MVVM */ = {
-			isa = PBXGroup;
-			children = (
-				A1D8F095245DC6C50046F1DB /* ViewModel.swift */,
-			);
-			path = MVVM;
-			sourceTree = "<group>";
-		};
-		A1D8F099245DC7A40046F1DB /* Core Data */ = {
-			isa = PBXGroup;
-			children = (
-				A1D8F09A245DC7AD0046F1DB /* CoreDataManager.swift */,
-			);
-			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A1B64AA724731CDE00F60A28 /* Karaktero-Ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B64AD224731CE200F60A28 /* Build configuration list for PBXNativeTarget "Karaktero-Ipad" */;
+			buildPhases = (
+				A1B64AA424731CDE00F60A28 /* Sources */,
+				A1B64AA524731CDE00F60A28 /* Frameworks */,
+				A1B64AA624731CDE00F60A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karaktero-Ipad";
+			packageProductDependencies = (
+				A10E1C2E247AC74E005903A8 /* Introspect */,
+			);
+			productName = "Karaktero-Ipad";
+			productReference = A1B64AA824731CDE00F60A28 /* Karaktero-Ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B64ABF24731CE200F60A28 /* Karaktero-IpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B64AD524731CE200F60A28 /* Build configuration list for PBXNativeTarget "Karaktero-IpadTests" */;
+			buildPhases = (
+				A1B64ABC24731CE200F60A28 /* Sources */,
+				A1B64ABD24731CE200F60A28 /* Frameworks */,
+				A1B64ABE24731CE200F60A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B64AC224731CE200F60A28 /* PBXTargetDependency */,
+			);
+			name = "Karaktero-IpadTests";
+			productName = "Karaktero-IpadTests";
+			productReference = A1B64AC024731CE200F60A28 /* Karaktero-IpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1B64ACA24731CE200F60A28 /* Karaktero-IpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B64AD824731CE200F60A28 /* Build configuration list for PBXNativeTarget "Karaktero-IpadUITests" */;
+			buildPhases = (
+				A1B64AC724731CE200F60A28 /* Sources */,
+				A1B64AC824731CE200F60A28 /* Frameworks */,
+				A1B64AC924731CE200F60A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B64ACD24731CE200F60A28 /* PBXTargetDependency */,
+			);
+			name = "Karaktero-IpadUITests";
+			productName = "Karaktero-IpadUITests";
+			productReference = A1B64ACB24731CE200F60A28 /* Karaktero-IpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A1D8F051245DC58C0046F1DB /* Karaktero */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D8F07F245DC58F0046F1DB /* Build configuration list for PBXNativeTarget "Karaktero" */;
@@ -229,6 +489,7 @@
 				A1D8F04E245DC58C0046F1DB /* Sources */,
 				A1D8F04F245DC58C0046F1DB /* Frameworks */,
 				A1D8F050245DC58C0046F1DB /* Resources */,
+				A1B64AFA24731D0B00F60A28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +549,17 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Madsen;
 				TargetAttributes = {
+					A1B64AA724731CDE00F60A28 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					A1B64ABF24731CE200F60A28 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = A1B64AA724731CDE00F60A28;
+					};
+					A1B64ACA24731CE200F60A28 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = A1B64AA724731CDE00F60A28;
+					};
 					A1D8F051245DC58C0046F1DB = {
 						CreatedOnToolsVersion = 11.4;
 					};
@@ -321,11 +593,39 @@
 				A1D8F051245DC58C0046F1DB /* Karaktero */,
 				A1D8F06A245DC58F0046F1DB /* KarakteroTests */,
 				A1D8F075245DC58F0046F1DB /* KarakteroUITests */,
+				A1B64AA724731CDE00F60A28 /* Karaktero-Ipad */,
+				A1B64ABF24731CE200F60A28 /* Karaktero-IpadTests */,
+				A1B64ACA24731CE200F60A28 /* Karaktero-IpadUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A1B64AA624731CDE00F60A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B64ABA24731CE200F60A28 /* LaunchScreen.storyboard in Resources */,
+				A10E1C2B247AAA53005903A8 /* Localizable.strings in Resources */,
+				A1B64AB724731CE200F60A28 /* Preview Assets.xcassets in Resources */,
+				A10E1C29247AA92E005903A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B64ABE24731CE200F60A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B64AC924731CE200F60A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1D8F050245DC58C0046F1DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,25 +654,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A1B64AA424731CDE00F60A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B64B492473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
+				A1B64B592473222200F60A28 /* MVVM.swift in Sources */,
+				A10E1C1D247AA7A1005903A8 /* AddGradeViewModel.swift in Sources */,
+				A10E1C23247AA8B7005903A8 /* GradeList.swift in Sources */,
+				A10E1C31247ACD97005903A8 /* ButtonRow.swift in Sources */,
+				A10E1C1E247AA7A1005903A8 /* EditGradeViewModel.swift in Sources */,
+				A10E1C2C247AC6F6005903A8 /* AddGradeView.swift in Sources */,
+				A1B64AAB24731CDE00F60A28 /* AppDelegate.swift in Sources */,
+				A1B64B3F2473202C00F60A28 /* CoreDataManager.swift in Sources */,
+				A1B64AAD24731CDE00F60A28 /* SceneDelegate.swift in Sources */,
+				A10E1C30247ACD8E005903A8 /* EditGradeModal.swift in Sources */,
+				A1B64BAA2473291200F60A28 /* GradeItemRow.swift in Sources */,
+				A10E1C2A247AAA3D005903A8 /* GradeAverageView.swift in Sources */,
+				A10E1C32247ACDA9005903A8 /* GradeItem.swift in Sources */,
+				A10E1C28247AA8EC005903A8 /* GradeItemfew.swift in Sources */,
+				A1B64B51247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
+				A10E1C22247AA7C3005903A8 /* MainListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B64ABC24731CE200F60A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B64B402473202C00F60A28 /* CoreDataManager.swift in Sources */,
+				A1B64BAB2473291200F60A28 /* GradeItemRow.swift in Sources */,
+				A1B64B5A2473222200F60A28 /* MVVM.swift in Sources */,
+				A10E1C24247AA8B8005903A8 /* GradeList.swift in Sources */,
+				A1B64B52247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
+				A1B64B4A2473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
+				A1B64AC524731CE200F60A28 /* Karaktero_IpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B64AC724731CE200F60A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B64B412473202C00F60A28 /* CoreDataManager.swift in Sources */,
+				A1B64BAC2473291200F60A28 /* GradeItemRow.swift in Sources */,
+				A1B64B5B2473222200F60A28 /* MVVM.swift in Sources */,
+				A10E1C25247AA8B8005903A8 /* GradeList.swift in Sources */,
+				A1B64B53247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
+				A1B64B4B2473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
+				A1B64AD024731CE200F60A28 /* Karaktero_IpadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1D8F04E245DC58C0046F1DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1C7653224602BCB00715898 /* AddGradeView.swift in Sources */,
-				A1D8F05B245DC58C0046F1DB /* Karaktero.xcdatamodeld in Sources */,
+				A1B64B8A247325B500F60A28 /* GradeList.swift in Sources */,
+				A130D6702474185B00264F87 /* AddGradeViewModel.swift in Sources */,
+				A10D2675247565E50089BC59 /* EditGradeViewModel.swift in Sources */,
 				A1D8F056245DC58C0046F1DB /* AppDelegate.swift in Sources */,
-				A1D8F093245DC6890046F1DB /* GradeListView.swift in Sources */,
-				A1D8F05D245DC58C0046F1DB /* WelcomeView.swift in Sources */,
+				A1B64BA72473291200F60A28 /* GradeItemRow.swift in Sources */,
+				A1D8F093245DC6890046F1DB /* MainListView.swift in Sources */,
 				A1B88DE9246C84DF0058667C /* GradeAverageView.swift in Sources */,
 				A1D8F058245DC58C0046F1DB /* SceneDelegate.swift in Sources */,
-				A1D8F09B245DC7AD0046F1DB /* CoreDataManager.swift in Sources */,
-				A1C12ABA246DD8A5001777A0 /* TrackableScrollView.swift in Sources */,
-				A1FA2CD9246EA61F0000090E /* ScrollOffsetPreferenceKey.swift in Sources */,
+				A1B64B4E247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
+				A1B64B562473222200F60A28 /* MVVM.swift in Sources */,
+				A1B64B3C2473202C00F60A28 /* CoreDataManager.swift in Sources */,
+				A1B64BA02473280400F60A28 /* ButtonRow.swift in Sources */,
 				A1C5B17D2471B19100C00F27 /* EditGradeModal.swift in Sources */,
-				A1D8F098245DC7110046F1DB /* GradeListViewModel.swift in Sources */,
-				A1D8F096245DC6C50046F1DB /* ViewModel.swift in Sources */,
-				A16DE5AA246F2C3F00E346DB /* GradeListItem.swift in Sources */,
-				A171CFB424613FD7000BE676 /* AddGradeViewModel.swift in Sources */,
+				A1B64B99247326BF00F60A28 /* GradeItem.swift in Sources */,
+				A1B64B462473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +733,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B64B8B247325B500F60A28 /* GradeList.swift in Sources */,
+				A1B64BA12473280400F60A28 /* ButtonRow.swift in Sources */,
+				A1B64B3D2473202C00F60A28 /* CoreDataManager.swift in Sources */,
+				A1B64BA82473291200F60A28 /* GradeItemRow.swift in Sources */,
+				A1B64B572473222200F60A28 /* MVVM.swift in Sources */,
+				A1B64B9A247326BF00F60A28 /* GradeItem.swift in Sources */,
+				A1B64B4F247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
+				A1B64B472473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
 				A1D8F070245DC58F0046F1DB /* KarakteroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +749,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B64B8C247325B500F60A28 /* GradeList.swift in Sources */,
+				A1B64BA22473280400F60A28 /* ButtonRow.swift in Sources */,
+				A1B64B3E2473202C00F60A28 /* CoreDataManager.swift in Sources */,
+				A1B64BA92473291200F60A28 /* GradeItemRow.swift in Sources */,
+				A1B64B582473222200F60A28 /* MVVM.swift in Sources */,
+				A1B64B9B247326BF00F60A28 /* GradeItem.swift in Sources */,
+				A1B64B50247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
+				A1B64B482473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
 				A1D8F07B245DC58F0046F1DB /* KarakteroUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +764,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A1B64AC224731CE200F60A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B64AA724731CDE00F60A28 /* Karaktero-Ipad */;
+			targetProxy = A1B64AC124731CE200F60A28 /* PBXContainerItemProxy */;
+		};
+		A1B64ACD24731CE200F60A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B64AA724731CDE00F60A28 /* Karaktero-Ipad */;
+			targetProxy = A1B64ACC24731CE200F60A28 /* PBXContainerItemProxy */;
+		};
 		A1D8F06D245DC58F0046F1DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A1D8F051245DC58C0046F1DB /* Karaktero */;
@@ -408,6 +787,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A1B64AB824731CE200F60A28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B64AB924731CE200F60A28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		A1D8F063245DC58F0046F1DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,6 +816,130 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A1B64AD324731CE200F60A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Karaktero-Ipad/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9DAB942FD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Karaktero-Ipad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gejlmadsen.Karaktero-Ipad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A1B64AD424731CE200F60A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Karaktero-Ipad/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9DAB942FD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Karaktero-Ipad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gejlmadsen.Karaktero-Ipad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A1B64AD624731CE200F60A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9DAB942FD;
+				INFOPLIST_FILE = "Karaktero-IpadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gejlmadsen.Karaktero-IpadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaktero-Ipad.app/Karaktero-Ipad";
+			};
+			name = Debug;
+		};
+		A1B64AD724731CE200F60A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9DAB942FD;
+				INFOPLIST_FILE = "Karaktero-IpadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gejlmadsen.Karaktero-IpadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaktero-Ipad.app/Karaktero-Ipad";
+			};
+			name = Release;
+		};
+		A1B64AD924731CE200F60A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9DAB942FD;
+				INFOPLIST_FILE = "Karaktero-IpadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gejlmadsen.Karaktero-IpadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Karaktero-Ipad";
+			};
+			name = Debug;
+		};
+		A1B64ADA24731CE200F60A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9DAB942FD;
+				INFOPLIST_FILE = "Karaktero-IpadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gejlmadsen.Karaktero-IpadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Karaktero-Ipad";
+			};
+			name = Release;
+		};
 		A1D8F07D245DC58F0046F1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -549,17 +1060,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Karaktero/Preview Content\"";
-				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				DEVELOPMENT_TEAM = Z9DAB942FD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Karaktero/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = madsen.Karaktero;
+				PRODUCT_BUNDLE_IDENTIFIER = gejlmadsen.Karaktero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -569,17 +1082,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Karaktero/Preview Content\"";
-				DEVELOPMENT_TEAM = 656T6LJBRQ;
+				DEVELOPMENT_TEAM = Z9DAB942FD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Karaktero/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = madsen.Karaktero;
+				PRODUCT_BUNDLE_IDENTIFIER = gejlmadsen.Karaktero;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -672,6 +1187,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A1B64AD224731CE200F60A28 /* Build configuration list for PBXNativeTarget "Karaktero-Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B64AD324731CE200F60A28 /* Debug */,
+				A1B64AD424731CE200F60A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B64AD524731CE200F60A28 /* Build configuration list for PBXNativeTarget "Karaktero-IpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B64AD624731CE200F60A28 /* Debug */,
+				A1B64AD724731CE200F60A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B64AD824731CE200F60A28 /* Build configuration list for PBXNativeTarget "Karaktero-IpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B64AD924731CE200F60A28 /* Debug */,
+				A1B64ADA24731CE200F60A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A1D8F04D245DC58C0046F1DB /* Build configuration list for PBXProject "Karaktero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -722,6 +1264,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A10E1C2E247AC74E005903A8 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1C5B1792471634400C00F27 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
 		A1C5B17A2471634400C00F27 /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A1C5B1792471634400C00F27 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
@@ -730,13 +1277,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		A1D8F059245DC58C0046F1DB /* Karaktero.xcdatamodeld */ = {
+		A1B64B4C247320F500F60A28 /* Grades.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A1D8F05A245DC58C0046F1DB /* Karaktero.xcdatamodel */,
+				A1B64B4D247320F500F60A28 /* Grades.xcdatamodel */,
 			);
-			currentVersion = A1D8F05A245DC58C0046F1DB /* Karaktero.xcdatamodel */;
-			path = Karaktero.xcdatamodeld;
+			currentVersion = A1B64B4D247320F500F60A28 /* Grades.xcdatamodel */;
+			path = Grades.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
