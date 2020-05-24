@@ -31,18 +31,21 @@ struct AddGradeView: View {
     
     var body: some View {
         ZStack {
+//            BACKGROUND
             Rectangle()
-                .fill(Color("AddGradeBackground"))
+                .fill(Color("ModalBackground"))
                 .edgesIgnoringSafeArea(.all)
                 .onTapGesture {
                     UIApplication.shared.endEditing()
                 }
             VStack(alignment: .leading, spacing: 25) {
+//            HEADLINE
                 Text(NSLocalizedString("add-new-grade", comment: "Add grade"))
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color("TopTextColor"))
                 VStack(alignment: .leading) {
+//                    COURSE TITLE
                     VStack(alignment: .leading, spacing: 0) {
                         TextField("", text: $title)
                             .autocapitalization(.sentences)
@@ -63,6 +66,7 @@ struct AddGradeView: View {
                             .foregroundColor(Color("TopTextColor"))
                         
                     }
+//                    ECTS
                     VStack(alignment: .leading, spacing: 0) {
                         TextField("", text: $ectsString)
                             .keyboardType(.decimalPad)
@@ -80,7 +84,7 @@ struct AddGradeView: View {
                         
                     }
                     .frame(width: 120)
-                    
+//                    GRADES
                     VStack(alignment: .leading) {
                         HStack {
                             ForEach(self.gradeOptions, id: \.self) { gradeString in
@@ -89,7 +93,7 @@ struct AddGradeView: View {
                                 }) {
                                     ZStack {
                                         RoundedRectangle(cornerRadius: 15)
-                                            .fill(Color(self.gradeString == gradeString ? "GradeSelectedFill" :"AddGradeBackground"))
+                                            .fill(Color(self.gradeString == gradeString ? "GradeSelectedFill" :"ModalBackground"))
                                             .animation(.interactiveSpring())
                                         RoundedRectangle(cornerRadius: 15)
                                             .stroke(Color(self.gradeString == gradeString ? "GradeSelectedStroke" :"GradeNotSelectedStroke"))
@@ -108,12 +112,13 @@ struct AddGradeView: View {
                     }
                     
                 }
+//                ADD GRADE BUTTON
                 HStack {
                     Spacer()
                     Button(action: { self.addGrade() }) {
                         ZStack {
                             RoundedRectangle(cornerRadius: 15)
-                                .fill(Color("AddGradeBackground"))
+                                .fill(Color("ModalBackground"))
                             RoundedRectangle(cornerRadius: 15)
                                 .stroke(Color("TopTextColor"))
                             Text(NSLocalizedString("add", comment: ""))
@@ -140,18 +145,5 @@ struct AddGradeView: View {
         vm.trigger(.addGrade(title: title, ects: ects, grade: grade))
         UIApplication.shared.endEditing()
         self.show.toggle()
-    }
-}
-
-struct AddGradeView_Previews: PreviewProvider {
-    static var previews: some View {
-        Color.clear.sheet(isPresented: .constant(true), content: { AddGradeView(show: .constant(true)) })
-    }
-}
-
-// extension for keyboard to dismiss
-extension UIApplication {
-    func endEditing() {
-        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }

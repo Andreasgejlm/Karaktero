@@ -11,7 +11,7 @@ import Introspect
 
 struct EditGradeModal: View {
     @Binding var show: Bool
-    @Binding var grade: Grade
+    @EnvironmentObject var vm: AnyViewModel<EditGradeViewState, EditGradeViewInput>
     @State var title: String = " "
     @State var ectsString: String = " "
     @State var gradeString: String = "4"
@@ -27,15 +27,10 @@ struct EditGradeModal: View {
         }
     }
     
-    init(show: Binding<Bool>, grade: Binding<Grade>) {
-        self._show = show
-        self._grade = grade
-    }
-    
     var body: some View {
         ZStack {
             Rectangle()
-                .fill(Color("EditGradeBackground"))
+                .fill(Color("ModalBackground"))
                 .edgesIgnoringSafeArea(.all)
                 .onTapGesture {
                     UIApplication.shared.endEditing()
@@ -53,7 +48,7 @@ struct EditGradeModal: View {
                             .accentColor(Color("TopTextColor"))
                             .font(.title)
                             .onAppear {
-                                self.title = self.grade.courseTitle ?? " "
+                                self.title = self.vm.state.grade.courseTitle ?? " "
                             }
                             .introspectTextField{ textField in
                                 textField.becomeFirstResponder()
@@ -73,7 +68,7 @@ struct EditGradeModal: View {
                             .accentColor(Color("TopTextColor"))
                             .font(.title)
                             .onAppear {
-                                self.ectsString = String(self.grade.ects)
+                                self.ectsString = String(self.vm.state.grade.ects)
                             }
                         Divider()
                             .background(ectsValid ? Color("TopTextColor") : Color("InvalidColor"))
@@ -106,7 +101,7 @@ struct EditGradeModal: View {
                             }
                         }
                         .onAppear {
-                            self.gradeString = String(self.grade.grade)
+                            self.gradeString = String(self.vm.state.grade.grade)
                         }
                         Text(NSLocalizedString("select-grade", comment: "Select grade"))
                             .font(.footnote)
@@ -140,9 +135,9 @@ struct EditGradeModal: View {
         }
     }
     func editGrade() {
-        grade.courseTitle = title
-        grade.ects = Int16(ectsString) ?? 0
-        grade.grade = Int16(gradeString) ?? 0
+        let ects = Int16(ectsString) ?? 0
+        let grade = Int16(gradeString) ?? 0
+        vm.trigger(.editGrade(newtitle: title, newects: ects, newgrade: grade))
         UIApplication.shared.endEditing()
         show.toggle()
     }

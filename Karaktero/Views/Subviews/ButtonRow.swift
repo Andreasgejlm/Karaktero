@@ -30,7 +30,7 @@ struct ButtonRow: View {
             Button(action: { self.delete.toggle() }) {
                 ZStack {
                     Circle()
-                        .fill(Color("DeleteColor"))
+                        .fill(Color("TopBackground"))
                     Image(systemName: "trash")
                         .resizable()
                         .frame(width: buttonDimension/3.0, height: buttonDimension/3.0)

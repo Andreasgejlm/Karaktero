@@ -9,43 +9,54 @@
 import SwiftUI
 import CoreData
 
-struct GradeListState {
-//    var grades: [Grade]
-}
-
-enum GradeListInput {
-    case fetch
-//    case newGrade(Grade)
-//    case assignContext(NSManagedObjectContext)
-}
-
 struct MainListView: View {
-    @EnvironmentObject var vm: AnyViewModel<MainListViewState, MainListViewInput>
-    @State var showAddNewGrade: Bool = false    
+    @State var showAddNewGrade: Bool = false
+    @State var showConfirmDelete: Bool = false
+    
+    init() {
+        UITableView.appearance().separatorColor = .clear
+        UITableView.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundColor = .clear
+    }
+    
     var body: some View {
         ZStack {
             Rectangle()
-                .fill(Color.black)
+                .fill(Color("TopBackground"))
                 .edgesIgnoringSafeArea(.all)
-        VStack(alignment: .leading) {
-            VStack(spacing: 0) {
-                GradeAverageView(showAddGrade: $showAddNewGrade)
-                .environmentObject(AnyViewModel(GradeAverageViewModel()))
-                    .frame(height: 210)
-                GradeList(grades: vm.state.grades)
-                    .environmentObject(AnyViewModel(GradeListViewModel()))
+            VStack(alignment: .leading) {
+                VStack(spacing: 0) {
+//                    GRADE AVERAGE VIEW W. ADD BUTTON
+                    GradeAverageView()
+                        .frame(height: 210)
+//                    GRADE LIST
+                    ZStack(alignment: .bottomTrailing) {
+                        GradeList()
+                        Button(action: {
+                            self.showAddNewGrade.toggle()
+                        }) {
+                            ZStack {
+                                Circle()
+                                    .fill(Color("AddButtonColor"))
+                                Image(systemName: "plus")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .foregroundColor(Color("AddSymbolColor"))
+                                    .frame(width: 60.0 / 3, height: 60.0 / 3)
+                            }
+                        }
+                        .buttonStyle(BorderlessButtonStyle())
+                        .frame(width: 60.0, height: 60.0)
+                        .padding(40)
+                    }
+                }
             }
-            .sheet(isPresented: $showAddNewGrade,
-                   onDismiss: {
-                    UIApplication.shared.endEditing()
-                    self.vm.trigger(.fetch)
-            },
-                   content: {
-                    EmptyView()
-                    AddGradeView(show: self.$showAddNewGrade)
-                        .environmentObject(AnyViewModel(AddGradeViewModel()))
-            })
+            .edgesIgnoringSafeArea(.bottom)
         }
-    }
+        .sheet(isPresented: $showAddNewGrade,
+               content: {
+                AddGradeView(show: self.$showAddNewGrade)
+                    .environmentObject(AnyViewModel(AddGradeViewModel()))
+        })
     }
 }

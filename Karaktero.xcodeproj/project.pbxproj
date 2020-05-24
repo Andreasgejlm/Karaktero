@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A130D66E24740FA400264F87 /* GradeAverageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D66D24740FA400264F87 /* GradeAverageViewModel.swift */; };
+		A10D2675247565E50089BC59 /* EditGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D2674247565E50089BC59 /* EditGradeViewModel.swift */; };
+		A10E1C1D247AA7A1005903A8 /* AddGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D66F2474185B00264F87 /* AddGradeViewModel.swift */; };
+		A10E1C1E247AA7A1005903A8 /* EditGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D2674247565E50089BC59 /* EditGradeViewModel.swift */; };
+		A10E1C22247AA7C3005903A8 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E1C21247AA7C3005903A8 /* MainListView.swift */; };
+		A10E1C23247AA8B7005903A8 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A10E1C24247AA8B8005903A8 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A10E1C25247AA8B8005903A8 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
+		A10E1C28247AA8EC005903A8 /* GradeItemfew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E1C27247AA8EC005903A8 /* GradeItemfew.swift */; };
+		A10E1C29247AA92E005903A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F05E245DC58F0046F1DB /* Assets.xcassets */; };
+		A10E1C2A247AAA3D005903A8 /* GradeAverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B88DE8246C84DF0058667C /* GradeAverageView.swift */; };
+		A10E1C2B247AAA53005903A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D8F089245DC5C60046F1DB /* Localizable.strings */; };
+		A10E1C2C247AC6F6005903A8 /* AddGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7653124602BCB00715898 /* AddGradeView.swift */; };
+		A10E1C2F247AC74E005903A8 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = A10E1C2E247AC74E005903A8 /* Introspect */; };
+		A10E1C30247ACD8E005903A8 /* EditGradeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */; };
+		A10E1C31247ACD97005903A8 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
+		A10E1C32247ACDA9005903A8 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
 		A130D6702474185B00264F87 /* AddGradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D66F2474185B00264F87 /* AddGradeViewModel.swift */; };
-		A130D67224741FC400264F87 /* MainListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D67124741FC400264F87 /* MainListViewModel.swift */; };
-		A16DE5AA246F2C3F00E346DB /* GradeListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */; };
 		A1B64AAB24731CDE00F60A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64AAA24731CDE00F60A28 /* AppDelegate.swift */; };
 		A1B64AAD24731CDE00F60A28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64AAC24731CDE00F60A28 /* SceneDelegate.swift */; };
-		A1B64AB224731CDE00F60A28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64AB124731CDE00F60A28 /* ContentView.swift */; };
-		A1B64AB424731CE200F60A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B64AB324731CE200F60A28 /* Assets.xcassets */; };
 		A1B64AB724731CE200F60A28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B64AB624731CE200F60A28 /* Preview Assets.xcassets */; };
 		A1B64ABA24731CE200F60A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B64AB824731CE200F60A28 /* LaunchScreen.storyboard */; };
 		A1B64AC524731CE200F60A28 /* Karaktero_IpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64AC424731CE200F60A28 /* Karaktero_IpadTests.swift */; };
@@ -43,36 +54,15 @@
 		A1B64B592473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
 		A1B64B5A2473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
 		A1B64B5B2473222200F60A28 /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B552473222200F60A28 /* MVVM.swift */; };
-		A1B64B5E2473224E00F60A28 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */; };
-		A1B64B5F2473224E00F60A28 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */; };
-		A1B64B602473224E00F60A28 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */; };
-		A1B64B612473224E00F60A28 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */; };
-		A1B64B622473224E00F60A28 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */; };
-		A1B64B632473224E00F60A28 /* GradeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */; };
-		A1B64B752473241000F60A28 /* GradeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B742473241000F60A28 /* GradeItemViewModel.swift */; };
-		A1B64B762473241000F60A28 /* GradeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B742473241000F60A28 /* GradeItemViewModel.swift */; };
-		A1B64B772473241000F60A28 /* GradeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B742473241000F60A28 /* GradeItemViewModel.swift */; };
-		A1B64B782473241000F60A28 /* GradeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B742473241000F60A28 /* GradeItemViewModel.swift */; };
-		A1B64B792473241000F60A28 /* GradeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B742473241000F60A28 /* GradeItemViewModel.swift */; };
-		A1B64B7A2473241000F60A28 /* GradeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B742473241000F60A28 /* GradeItemViewModel.swift */; };
 		A1B64B8A247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
 		A1B64B8B247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
 		A1B64B8C247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
-		A1B64B8D247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
-		A1B64B8E247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
-		A1B64B8F247325B500F60A28 /* GradeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B89247325B500F60A28 /* GradeList.swift */; };
 		A1B64B99247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
 		A1B64B9A247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
 		A1B64B9B247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
-		A1B64B9C247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
-		A1B64B9D247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
-		A1B64B9E247326BF00F60A28 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B98247326BF00F60A28 /* GradeItem.swift */; };
 		A1B64BA02473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
 		A1B64BA12473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
 		A1B64BA22473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
-		A1B64BA32473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
-		A1B64BA42473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
-		A1B64BA52473280400F60A28 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64B9F2473280400F60A28 /* ButtonRow.swift */; };
 		A1B64BA72473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
 		A1B64BA82473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
 		A1B64BA92473291200F60A28 /* GradeItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B64BA62473291200F60A28 /* GradeItemRow.swift */; };
@@ -139,15 +129,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A130D66D24740FA400264F87 /* GradeAverageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeAverageViewModel.swift; sourceTree = "<group>"; };
+		A10D2674247565E50089BC59 /* EditGradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGradeViewModel.swift; sourceTree = "<group>"; };
+		A10E1C21247AA7C3005903A8 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		A10E1C27247AA8EC005903A8 /* GradeItemfew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItemfew.swift; sourceTree = "<group>"; };
 		A130D66F2474185B00264F87 /* AddGradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGradeViewModel.swift; sourceTree = "<group>"; };
-		A130D67124741FC400264F87 /* MainListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewModel.swift; sourceTree = "<group>"; };
-		A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListItem.swift; sourceTree = "<group>"; };
 		A1B64AA824731CDE00F60A28 /* Karaktero-Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karaktero-Ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B64AAA24731CDE00F60A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B64AAC24731CDE00F60A28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1B64AB124731CDE00F60A28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1B64AB324731CE200F60A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B64AB624731CE200F60A28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1B64AB924731CE200F60A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B64ABB24731CE200F60A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -161,8 +149,6 @@
 		A1B64B452473205500F60A28 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
 		A1B64B4D247320F500F60A28 /* Grades.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grades.xcdatamodel; sourceTree = "<group>"; };
 		A1B64B552473222200F60A28 /* MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM.swift; sourceTree = "<group>"; };
-		A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeListViewModel.swift; sourceTree = "<group>"; };
-		A1B64B742473241000F60A28 /* GradeItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItemViewModel.swift; sourceTree = "<group>"; };
 		A1B64B89247325B500F60A28 /* GradeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeList.swift; sourceTree = "<group>"; };
 		A1B64B98247326BF00F60A28 /* GradeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeItem.swift; sourceTree = "<group>"; };
 		A1B64B9F2473280400F60A28 /* ButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRow.swift; sourceTree = "<group>"; };
@@ -194,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10E1C2F247AC74E005903A8 /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,13 +223,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A10E1C1C247AA762005903A8 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7653124602BCB00715898 /* AddGradeView.swift */,
+				A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		A10E1C20247AA7B7005903A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10E1C21247AA7C3005903A8 /* MainListView.swift */,
+				A10E1C26247AA8E3005903A8 /* Subviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10E1C26247AA8E3005903A8 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				A10E1C27247AA8EC005903A8 /* GradeItemfew.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		A10E1C2D247AC74E005903A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1B64AA924731CDE00F60A28 /* Karaktero-Ipad */ = {
 			isa = PBXGroup;
 			children = (
+				A10E1C20247AA7B7005903A8 /* Views */,
 				A1B64AAA24731CDE00F60A28 /* AppDelegate.swift */,
 				A1B64AAC24731CDE00F60A28 /* SceneDelegate.swift */,
-				A1B64AB124731CDE00F60A28 /* ContentView.swift */,
-				A1B64AB324731CE200F60A28 /* Assets.xcassets */,
 				A1B64AB824731CE200F60A28 /* LaunchScreen.storyboard */,
 				A1B64ABB24731CE200F60A28 /* Info.plist */,
 				A1B64AB524731CE200F60A28 /* Preview Content */,
@@ -303,24 +322,22 @@
 		A1B64B5C2473223300F60A28 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				A1B64B5D2473224E00F60A28 /* GradeListViewModel.swift */,
-				A1B64B742473241000F60A28 /* GradeItemViewModel.swift */,
-				A130D66D24740FA400264F87 /* GradeAverageViewModel.swift */,
 				A130D66F2474185B00264F87 /* AddGradeViewModel.swift */,
-				A130D67124741FC400264F87 /* MainListViewModel.swift */,
+				A10D2674247565E50089BC59 /* EditGradeViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
 		};
-		A1B64B97247326B600F60A28 /* Views */ = {
+		A1B64B97247326B600F60A28 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				A1B88DE8246C84DF0058667C /* GradeAverageView.swift */,
 				A1B64B89247325B500F60A28 /* GradeList.swift */,
 				A1B64B98247326BF00F60A28 /* GradeItem.swift */,
 				A1B64B9F2473280400F60A28 /* ButtonRow.swift */,
 				A1B64BA62473291200F60A28 /* GradeItemRow.swift */,
 			);
-			path = Views;
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		A1D8F049245DC58C0046F1DB = {
@@ -333,6 +350,7 @@
 				A1B64AC324731CE200F60A28 /* Karaktero-IpadTests */,
 				A1B64ACE24731CE200F60A28 /* Karaktero-IpadUITests */,
 				A1D8F053245DC58C0046F1DB /* Products */,
+				A10E1C2D247AC74E005903A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -398,12 +416,9 @@
 		A1D8F08D245DC6140046F1DB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A1B64B97247326B600F60A28 /* Views */,
+				A10E1C1C247AA762005903A8 /* Modals */,
+				A1B64B97247326B600F60A28 /* Subviews */,
 				A1D8F092245DC6890046F1DB /* MainListView.swift */,
-				A1C5B17C2471B19100C00F27 /* EditGradeModal.swift */,
-				A16DE5A9246F2C3F00E346DB /* GradeListItem.swift */,
-				A1C7653124602BCB00715898 /* AddGradeView.swift */,
-				A1B88DE8246C84DF0058667C /* GradeAverageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -424,6 +439,9 @@
 			dependencies = (
 			);
 			name = "Karaktero-Ipad";
+			packageProductDependencies = (
+				A10E1C2E247AC74E005903A8 /* Introspect */,
+			);
 			productName = "Karaktero-Ipad";
 			productReference = A1B64AA824731CDE00F60A28 /* Karaktero-Ipad.app */;
 			productType = "com.apple.product-type.application";
@@ -588,8 +606,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B64ABA24731CE200F60A28 /* LaunchScreen.storyboard in Resources */,
+				A10E1C2B247AAA53005903A8 /* Localizable.strings in Resources */,
 				A1B64AB724731CE200F60A28 /* Preview Assets.xcassets in Resources */,
-				A1B64AB424731CE200F60A28 /* Assets.xcassets in Resources */,
+				A10E1C29247AA92E005903A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,17 +660,21 @@
 			files = (
 				A1B64B492473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
 				A1B64B592473222200F60A28 /* MVVM.swift in Sources */,
-				A1B64B8D247325B500F60A28 /* GradeList.swift in Sources */,
+				A10E1C1D247AA7A1005903A8 /* AddGradeViewModel.swift in Sources */,
+				A10E1C23247AA8B7005903A8 /* GradeList.swift in Sources */,
+				A10E1C31247ACD97005903A8 /* ButtonRow.swift in Sources */,
+				A10E1C1E247AA7A1005903A8 /* EditGradeViewModel.swift in Sources */,
+				A10E1C2C247AC6F6005903A8 /* AddGradeView.swift in Sources */,
 				A1B64AAB24731CDE00F60A28 /* AppDelegate.swift in Sources */,
-				A1B64AB224731CDE00F60A28 /* ContentView.swift in Sources */,
 				A1B64B3F2473202C00F60A28 /* CoreDataManager.swift in Sources */,
 				A1B64AAD24731CDE00F60A28 /* SceneDelegate.swift in Sources */,
-				A1B64B9C247326BF00F60A28 /* GradeItem.swift in Sources */,
-				A1B64B782473241000F60A28 /* GradeItemViewModel.swift in Sources */,
+				A10E1C30247ACD8E005903A8 /* EditGradeModal.swift in Sources */,
 				A1B64BAA2473291200F60A28 /* GradeItemRow.swift in Sources */,
-				A1B64B612473224E00F60A28 /* GradeListViewModel.swift in Sources */,
-				A1B64BA32473280400F60A28 /* ButtonRow.swift in Sources */,
+				A10E1C2A247AAA3D005903A8 /* GradeAverageView.swift in Sources */,
+				A10E1C32247ACDA9005903A8 /* GradeItem.swift in Sources */,
+				A10E1C28247AA8EC005903A8 /* GradeItemfew.swift in Sources */,
 				A1B64B51247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
+				A10E1C22247AA7C3005903A8 /* MainListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,14 +682,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B64B792473241000F60A28 /* GradeItemViewModel.swift in Sources */,
-				A1B64B8E247325B500F60A28 /* GradeList.swift in Sources */,
-				A1B64BA42473280400F60A28 /* ButtonRow.swift in Sources */,
 				A1B64B402473202C00F60A28 /* CoreDataManager.swift in Sources */,
 				A1B64BAB2473291200F60A28 /* GradeItemRow.swift in Sources */,
 				A1B64B5A2473222200F60A28 /* MVVM.swift in Sources */,
-				A1B64B622473224E00F60A28 /* GradeListViewModel.swift in Sources */,
-				A1B64B9D247326BF00F60A28 /* GradeItem.swift in Sources */,
+				A10E1C24247AA8B8005903A8 /* GradeList.swift in Sources */,
 				A1B64B52247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
 				A1B64B4A2473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
 				A1B64AC524731CE200F60A28 /* Karaktero_IpadTests.swift in Sources */,
@@ -677,14 +696,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B64B7A2473241000F60A28 /* GradeItemViewModel.swift in Sources */,
-				A1B64B8F247325B500F60A28 /* GradeList.swift in Sources */,
-				A1B64BA52473280400F60A28 /* ButtonRow.swift in Sources */,
 				A1B64B412473202C00F60A28 /* CoreDataManager.swift in Sources */,
 				A1B64BAC2473291200F60A28 /* GradeItemRow.swift in Sources */,
 				A1B64B5B2473222200F60A28 /* MVVM.swift in Sources */,
-				A1B64B632473224E00F60A28 /* GradeListViewModel.swift in Sources */,
-				A1B64B9E247326BF00F60A28 /* GradeItem.swift in Sources */,
+				A10E1C25247AA8B8005903A8 /* GradeList.swift in Sources */,
 				A1B64B53247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
 				A1B64B4B2473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
 				A1B64AD024731CE200F60A28 /* Karaktero_IpadUITests.swift in Sources */,
@@ -697,11 +712,9 @@
 			files = (
 				A1C7653224602BCB00715898 /* AddGradeView.swift in Sources */,
 				A1B64B8A247325B500F60A28 /* GradeList.swift in Sources */,
-				A130D66E24740FA400264F87 /* GradeAverageViewModel.swift in Sources */,
 				A130D6702474185B00264F87 /* AddGradeViewModel.swift in Sources */,
+				A10D2675247565E50089BC59 /* EditGradeViewModel.swift in Sources */,
 				A1D8F056245DC58C0046F1DB /* AppDelegate.swift in Sources */,
-				A1B64B5E2473224E00F60A28 /* GradeListViewModel.swift in Sources */,
-				A1B64B752473241000F60A28 /* GradeItemViewModel.swift in Sources */,
 				A1B64BA72473291200F60A28 /* GradeItemRow.swift in Sources */,
 				A1D8F093245DC6890046F1DB /* MainListView.swift in Sources */,
 				A1B88DE9246C84DF0058667C /* GradeAverageView.swift in Sources */,
@@ -712,9 +725,7 @@
 				A1B64BA02473280400F60A28 /* ButtonRow.swift in Sources */,
 				A1C5B17D2471B19100C00F27 /* EditGradeModal.swift in Sources */,
 				A1B64B99247326BF00F60A28 /* GradeItem.swift in Sources */,
-				A16DE5AA246F2C3F00E346DB /* GradeListItem.swift in Sources */,
 				A1B64B462473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
-				A130D67224741FC400264F87 /* MainListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,13 +733,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B64B762473241000F60A28 /* GradeItemViewModel.swift in Sources */,
 				A1B64B8B247325B500F60A28 /* GradeList.swift in Sources */,
 				A1B64BA12473280400F60A28 /* ButtonRow.swift in Sources */,
 				A1B64B3D2473202C00F60A28 /* CoreDataManager.swift in Sources */,
 				A1B64BA82473291200F60A28 /* GradeItemRow.swift in Sources */,
 				A1B64B572473222200F60A28 /* MVVM.swift in Sources */,
-				A1B64B5F2473224E00F60A28 /* GradeListViewModel.swift in Sources */,
 				A1B64B9A247326BF00F60A28 /* GradeItem.swift in Sources */,
 				A1B64B4F247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
 				A1B64B472473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
@@ -740,13 +749,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B64B772473241000F60A28 /* GradeItemViewModel.swift in Sources */,
 				A1B64B8C247325B500F60A28 /* GradeList.swift in Sources */,
 				A1B64BA22473280400F60A28 /* ButtonRow.swift in Sources */,
 				A1B64B3E2473202C00F60A28 /* CoreDataManager.swift in Sources */,
 				A1B64BA92473291200F60A28 /* GradeItemRow.swift in Sources */,
 				A1B64B582473222200F60A28 /* MVVM.swift in Sources */,
-				A1B64B602473224E00F60A28 /* GradeListViewModel.swift in Sources */,
 				A1B64B9B247326BF00F60A28 /* GradeItem.swift in Sources */,
 				A1B64B50247320F500F60A28 /* Grades.xcdatamodeld in Sources */,
 				A1B64B482473205500F60A28 /* NSManagedObjectContext.swift in Sources */,
@@ -1257,6 +1264,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A10E1C2E247AC74E005903A8 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1C5B1792471634400C00F27 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
 		A1C5B17A2471634400C00F27 /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A1C5B1792471634400C00F27 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;

@@ -18,39 +18,44 @@ struct GradeItemRow: View {
         }
     }
     
+    let itemHeight: CGFloat = 60.0
+    @State var currentPosition: CGFloat = 0.0
+    @State var offsetPosition: CGFloat = 0.0
+    var offsetWidth: CGFloat { 2 * itemHeight + 15 }
+    
     
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 30)
                 .fill(Color("ListItemBackground"))
-            RoundedRectangle(cornerRadius: 30)
-                .stroke(Color("ListItemStroke"))
+//            RoundedRectangle(cornerRadius: 30)
+//                .stroke(Color("ListItemStroke"))
                 HStack {
                     VStack(alignment: .leading) {
                         Text(grade.courseTitle ?? "--")
                             .lineLimit(2)
                             .truncationMode(.tail)
                             .font(.headline)
-                            .foregroundColor(.primary)
+                            .foregroundColor(Color("TopTextColor"))
                     }
                     Spacer()
                     VStack(alignment: .leading) {
                         Text(String(grade.ects))
                             .font(.body)
                             .fontWeight(.semibold)
-                            .foregroundColor(.primary)
+                            .foregroundColor(Color("TopTextColor"))
                         Text(NSLocalizedString("ects", comment: "ECTS"))
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(Color("SecondaryTopTextColor"))
                     }
                     VStack(alignment: .leading) {
                         Text(gradeString)
                             .font(.body)
                             .fontWeight(.semibold)
-                            .foregroundColor(.primary)
+                            .foregroundColor(Color("TopTextColor"))
                         Text(NSLocalizedString("grade", comment: "Grade"))
                             .font(.footnote)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(Color("SecondaryTopTextColor"))
                     }
                 }
             .padding([.leading, .trailing], 30)

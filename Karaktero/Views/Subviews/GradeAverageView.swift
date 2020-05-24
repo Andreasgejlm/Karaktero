@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct GradeAverageView: View {
-    @EnvironmentObject var vm: AnyViewModel<GradeAverageViewState, GradeAverageViewInput>
-    @Binding var showAddGrade: Bool
+    @FetchRequest(entity: Grade.entity(), sortDescriptors: [NSSortDescriptor(key: "timestamp", ascending: true)]) var grades: FetchedResults<Grade>
+    var sumEcts: Int16 { grades.map{$0.ects}.reduce(0, +) }
+    var sumEctsString: String {
+        return String(sumEcts)
+    }
+    var averageString: String {
+        let sumWeights = grades.map { $0.ects * $0.grade }.reduce(0, +)
+        let avg: Double? = sumEcts > 0 ? Double( sumWeights ) / Double( sumEcts ) : nil
+        if let avg = avg {
+            return String(format: "%.1f", avg)
+        } else {
+            return " - "
+        }
+    }
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
@@ -27,8 +39,9 @@ struct GradeAverageView: View {
                         .resizable()
                         .foregroundColor(Color("TopTextColor"))
                         .frame(width: 34, height: 34)
+                        .padding(.trailing)
                     VStack(alignment: .leading, spacing: 0) {
-                        Text(vm.state.averageString)
+                        Text(averageString)
                             .font(.system(size: 30, weight: .bold, design: .rounded))
                             .foregroundColor(Color("TopTextColor"))
                         Text(NSLocalizedString("weighted-average", comment: ""))
@@ -42,8 +55,9 @@ struct GradeAverageView: View {
                         .resizable()
                         .frame(width: 30, height: 30)
                         .foregroundColor(Color("TopTextColor"))
+                        .padding(.trailing)
                     VStack(alignment: .leading, spacing: 0) {
-                        Text(String(vm.state.sumECTSString))
+                        Text(String(sumEctsString))
                             .font(.system(size: 30, weight: .bold, design: .rounded))
                             .foregroundColor(Color("TopTextColor"))
                         Text("ECTS")
@@ -54,22 +68,6 @@ struct GradeAverageView: View {
                 Spacer()
             }
             .padding(.leading)
-            Button(action: {
-                self.showAddGrade.toggle()
-            }) {
-                ZStack {
-                    Circle()
-                        .fill(Color("AddGradeTertiaryColor"))
-                    Image(systemName: "plus")
-                        .resizable()
-                        .scaledToFit()
-                        .foregroundColor(Color("AddSymbolColor"))
-                        .frame(width: 60.0 / 3, height: 60.0 / 3)
-                }
-            }
-            .buttonStyle(BorderlessButtonStyle())
-            .frame(width: 60.0, height: 60.0)
-            .padding()
         }
 //        .frame(height: scroll >= 0.0 ? 200 : 100)
     }

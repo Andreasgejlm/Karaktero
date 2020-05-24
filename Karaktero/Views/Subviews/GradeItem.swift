@@ -9,14 +9,14 @@
 import SwiftUI
 
 struct GradeItem: View {
-    @EnvironmentObject var vm: AnyViewModel<GradeItemViewState, GradeItemViewInput>
+    @ObservedObject var grade: Grade
     @State var showEditGrade: Bool = false
     @State var showDeleteConfirm: Bool = false
-    let itemHeight: CGFloat = 60.0
     @State var currentPosition: CGFloat = 0.0
     @State var offsetPosition: CGFloat = 0.0
-    var offsetWidth: CGFloat { 2 * itemHeight + 15 }
     @State var itemOpacity: Double = 1.0
+    var offsetWidth: CGFloat { 2 * itemHeight + 15 }
+    let itemHeight: CGFloat = 60.0
     
     var body: some View {
         ZStack (alignment: .trailing) {
@@ -29,12 +29,12 @@ struct GradeItem: View {
                         self.offsetPosition = 0.0
                     },
                     content: {
-                        EmptyView()
-//                        EditGradeModal(show: self.$showEditGrade, grade: self.$grade)
+                        EditGradeModal(show: self.$showEditGrade)
+                            .environmentObject(AnyViewModel(EditGradeViewModel(grade: self.grade)))
                     })
-            GradeItemRow(grade: vm.state.grade)
+            GradeItemRow(grade: grade)
                 .frame(height: itemHeight)
-                .offset(x:self.offsetPosition, y: 0)
+                .offset(x: self.offsetPosition, y: 0)
                 .animation(.easeInOut)
                 .gesture(
                     DragGesture(minimumDistance: 30, coordinateSpace: .local)
@@ -53,11 +53,13 @@ struct GradeItem: View {
                     })
         }
         .opacity(itemOpacity)
+        .animation(.easeInOut)
         .actionSheet(isPresented: $showDeleteConfirm, content: {
             ActionSheet(title: Text(NSLocalizedString("delete-grade", comment: "")),
                         message: Text(NSLocalizedString("sure-delete", comment: "")),
                         buttons: [
                         .default(Text(NSLocalizedString("confirm", comment: ""))) {
+                            CoreDataManager.shared.deleteGrade(grade: self.grade)
                             self.itemOpacity = 0
                             },
                         .cancel()

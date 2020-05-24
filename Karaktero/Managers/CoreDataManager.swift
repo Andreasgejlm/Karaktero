@@ -24,7 +24,6 @@ class CoreDataManager {
         newGrade.ects = ects
         newGrade.grade = grade
         newGrade.timestamp = Date().timeIntervalSince1970
-        print(newGrade)
         do {
             try moc.save()
         } catch {
@@ -32,23 +31,19 @@ class CoreDataManager {
         }
     }
     
-    func fetchAllGrades() -> [Grade] {
-        var grades: [Grade] = [Grade]()
-        let gradeRequest: NSFetchRequest<Grade> = Grade.fetchRequest()
-        
+    func deleteGrade(grade: Grade) {
+        moc.delete(grade)
         do {
-            grades = try moc.fetch(gradeRequest)
+            try moc.save()
         } catch {
             print(error.localizedDescription)
         }
-        return grades
     }
     
-    func editGrade(existingGrade: Grade, updatedGrade: Grade) {
-        existingGrade.courseTitle = updatedGrade.courseTitle
-        existingGrade.ects = updatedGrade.ects
-        existingGrade.grade = updatedGrade.grade
-        existingGrade.timestamp = updatedGrade.timestamp
+    func editGrade(existingGrade: Grade, newTitle: String, newECTS: Int16, newGrade: Int16) {
+        existingGrade.courseTitle = newTitle
+        existingGrade.ects = newECTS
+        existingGrade.grade = newGrade
         do {
             try moc.save()
         } catch {
